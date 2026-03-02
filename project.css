@@ -1,0 +1,30 @@
+body {
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    background-size: cover;
+}
+.nav-item:hover{
+    background-color: #ffffff5c;
+    border-radius: 10px;
+}
+.nav-link {
+    color: #000000;
+    font-size: larger;
+}
+.header-img {
+    width: 404px;
+    height: 404px;
+    border-radius: 10%;
+    filter: drop-shadow(8px 6px 12px #000000);
+}
+.block {
+    border-radius: 15px;
+    padding: 20px;
+    color: black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 1067px;
+}
+.container {
+    text-align: center;
+}
