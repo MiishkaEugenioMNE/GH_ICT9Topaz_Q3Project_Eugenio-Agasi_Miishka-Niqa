@@ -9,15 +9,15 @@ const baseKM = 2;        // Distance included in base fare
 
 // Distance(KM) between stations
 const distances = {
-    "Santolan-Katipunan": 1.7,
+    "Santolan-Katipunan": 2.0,
     "Katipunan-Anonas": 1.0,
-    "Anonas-Araneta Center-Cubao": 1.4,
-    "Araneta Center-Cubao-Betty Go-Belmonte": 1.2,
-    "Betty Go-Belmonte-Gilmore": 1.1,
-    "Gilmore-J. Ruiz": 0.9,
-    "J. Ruiz-V. Mapa": 1.2,
-    "V. Mapa-Pureza": 1.3,
-    "Pureza-Legarda": 1.4,
+    "Anonas-Araneta Center-Cubao": 1.0,
+    "Araneta Center-Cubao-Betty Go-Belmonte": 1.0,
+    "Betty Go-Belmonte-Gilmore": 1.0,
+    "Gilmore-J. Ruiz": 1.0,     
+    "J. Ruiz-V. Mapa": 1.0,
+    "V. Mapa-Pureza": 1.0,
+    "Pureza-Legarda": 1.0,
     "Legarda-Recto": 1.0
 };
 
@@ -92,4 +92,5 @@ function calculateFare(isDiscounted) {
     document.getElementById("fare").textContent = totalFare.toFixed(2);
 
 }
+
 
