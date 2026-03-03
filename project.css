@@ -27,4 +27,9 @@ body {
 }
 .container {
     text-align: center;
+
+}
+nav {
+    border: 1px solid #000000;
+    background-color: rgba(74, 39, 100, 0.222)
 }
