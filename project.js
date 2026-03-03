@@ -1,4 +1,7 @@
 // Fare MATRIX JavaScript Code
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
+//https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+
 const baseFare = 50;     // Minimum fare (includes first 2km)
 const perKMrate = 15;    // Cost per km beyond 2km
 const baseKM = 2;        // Distance included in base fare
@@ -86,4 +89,5 @@ function calculateFare(isDiscounted) {
     // Results
     document.getElementById("distance").textContent = totalDistance.toFixed(2);
     document.getElementById("fare").textContent = totalFare.toFixed(2);
+
 }
